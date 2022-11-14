@@ -65,7 +65,7 @@ export default class App extends Component {
   }
 
   processSubmit = query => {
-    this.setState({ query });
+    this.setState({ query, pictures: [], page: 1 });
   };
 
   handleLoadMore = () => {
